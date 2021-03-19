@@ -10,7 +10,7 @@ public class MainClass {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        //Проверочный вывод в терминал
         System.out.println(treeFunc(file));
     }
 
