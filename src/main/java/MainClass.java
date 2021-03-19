@@ -10,7 +10,6 @@ public class MainClass {
         if (!file.isDirectory()) {
             throw new IllegalArgumentException("argument is not valid");
         }
-//        String tree = "";
 // in the first try, i tried to pass string into method and modify it
 // but string didn't modified in the methods, so pomeyal to StringBuilder
         StringBuilder tree = new StringBuilder();
@@ -23,11 +22,6 @@ public class MainClass {
         if (!file.isDirectory()) {
             throw new IllegalArgumentException("argument is not valid");
         }
-//        tree = tree + depthAppender(depth) + "+--" + file.getName() + "\n";
-//        tree.append(depthAppender(depth));
-//        tree.append("+--");
-//        tree.append(file.getName());
-//        tree.append("\n");
         printFile(file, depth, tree);
 
         for (File fil : file.listFiles()) {
@@ -57,6 +51,5 @@ public class MainClass {
             tree.append(")");
         }
         tree.append("\n");
-        //tree = tree + depthAppender(depth) + "+--" + file.getName() + "\n";
     }
 }
