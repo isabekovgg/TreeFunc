@@ -1,8 +1,16 @@
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class MainClass {
     public static void main(String[] args) {
         File file = new File(args[0]);
+        try (FileWriter writer = new FileWriter("test.txt", false)) {
+            writer.write(treeFunc(file));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         System.out.println(treeFunc(file));
     }
 

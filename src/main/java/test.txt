@@ -1,0 +1,45 @@
+==>GitHub(depth : 0)
+|  ==>NU-LOCAL-HACK-DAY(depth : 1)
+|  |  ==>.git(depth : 2)
+|  |  |  ==>config
+|  |  |  ==>description
+|  |  |  ==>FETCH_HEAD
+|  |  |  ==>HEAD
+|  |  |  ==>hooks(depth : 3)
+|  |  |  |  ==>applypatch-msg.sample
+|  |  |  |  ==>commit-msg.sample
+|  |  |  |  ==>fsmonitor-watchman.sample
+|  |  |  |  ==>post-update.sample
+|  |  |  |  ==>pre-applypatch.sample
+|  |  |  |  ==>pre-commit.sample
+|  |  |  |  ==>pre-push.sample
+|  |  |  |  ==>pre-rebase.sample
+|  |  |  |  ==>pre-receive.sample
+|  |  |  |  ==>prepare-commit-msg.sample
+|  |  |  |  ==>update.sample
+|  |  |  ==>index
+|  |  |  ==>info(depth : 3)
+|  |  |  |  ==>exclude
+|  |  |  ==>logs(depth : 3)
+|  |  |  |  ==>HEAD
+|  |  |  |  ==>refs(depth : 4)
+|  |  |  |  |  ==>heads(depth : 5)
+|  |  |  |  |  |  ==>master
+|  |  |  |  |  ==>remotes(depth : 5)
+|  |  |  |  |  |  ==>origin(depth : 6)
+|  |  |  |  |  |  |  ==>HEAD
+|  |  |  ==>objects(depth : 3)
+|  |  |  |  ==>info(depth : 4)
+|  |  |  |  ==>pack(depth : 4)
+|  |  |  |  |  ==>pack-6003a99c2144d76c35e5c606d825aa2350246ec4.idx
+|  |  |  |  |  ==>pack-6003a99c2144d76c35e5c606d825aa2350246ec4.pack
+|  |  |  ==>packed-refs
+|  |  |  ==>refs(depth : 3)
+|  |  |  |  ==>heads(depth : 4)
+|  |  |  |  |  ==>master
+|  |  |  |  ==>remotes(depth : 4)
+|  |  |  |  |  ==>origin(depth : 5)
+|  |  |  |  |  |  ==>HEAD
+|  |  |  |  ==>tags(depth : 4)
+|  |  ==>main.go
+|  |  ==>README.md
