@@ -49,7 +49,7 @@ public class MainClass {
 
     public static void printFile(File file, int depth, StringBuilder tree) {
         tree.append(depthAppender(depth));
-        tree.append("+--");
+        tree.append("==>");
         tree.append(file.getName());
         if (file.isDirectory()) {
             tree.append("(depth : ");
